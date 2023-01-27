@@ -1,0 +1,244 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	border: 0px;
+	font-size: 100%;
+	text-decoration: none;
+	background: #32383E;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFE1;
+} a:hover {
+	color: #FFFFE1;
+	text-decoration: underline;
+}
+
+nav {
+	background: #2B3035;
+	padding: 1% 0;
+	margin: 0 10vw;
+}
+
+.navigation {
+	margin: 0 5vw;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0 0 calc(1% + 1vh) 0;
+}
+
+.timeLine {
+	margin: 0 5vw 0 0;
+	float: left;
+}
+
+.webAlbum {
+	float: left;
+}
+
+.leftNav {
+	font-size:calc(6px + 1vw);
+}
+
+.rightNav {
+	font-size:calc(6px + 1vw);
+}
+
+.contacts {
+	float: right;
+}
+
+.underNav {
+	display: block;
+	border-style: inset;
+	border-width: 1px;
+	margin: 0;
+}
+
+.underHeader {
+	display: block;
+	border-style: inset;
+	border-width: 1px;
+	margin: 30px 15%;
+}
+
+.between {
+	display: block;
+	border-style: inset;
+	border-width: 0px;
+	margin: 0 42%;
+}
+
+header {
+	margin: 180px 15% 0 15%;
+	text-align: center;
+	font-size: 200%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+footer {
+
+}
+
+
+.darkBG {
+	padding: 50px 0;
+	background: #2B3035;
+}
+
+.brightBG {
+	padding: 50px 0;
+	background: #32383E;
+}
+
+.paragraph {
+	margin: 0 15vw;
+	font-size: 110%;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	font-weight: 400;
+	width: 65vw;
+}
+
+.paragraphHeader {
+	margin: 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.content {
+	display: table;
+}
+
+.IMGbox {
+	margin: 5vw;
+}
+
+.brightIMG {
+	padding: 10px;
+	background: #32383E;
+	float: right;
+	max-width: 67vw;
+}
+
+.darkIMG {
+	padding: 10px;
+	background: #2B3035;
+	float: left;
+	max-width: 67vw;
+}
+
+.text {
+	margin: 0 10% 0 0;
+	text-align: left;
+}
+
+.textL {
+	margin: 0 0 0 10%;
+	text-align: right;
+}
+
+.contactsContent {
+	margin: 0 15% 0 15%;
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+}
+
+.column {
+	vertical-align: middle;
+}
+
+.rightCon {
+	display: inline-grid;
+}
+
+.group {
+	margin: 3% 0;
+}
+
+#IMGfoto {
+	display: flex;
+	align-items: center;
+	margin: 2% 0;
+	background: #2B3035;
+	padding: 2% 0;
+}
+
+#foto {
+	max-width: calc(200px + 8vw);
+	margin: 0 auto;
+}
+
+.plusMinusBG {
+	background: #2B3035;
+	padding: 30px 0 50px 0;
+}
+
+.plusMinus {
+	margin: 15px 15%;
+}
+
+#headerPM {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.PMlistHeader, #syntaxHeader, #codeWriteSpeedHeader, #dinamVarHeader {
+	text-transform: uppercase;
+	font-size: 24px;
+	margin: 15px 0 15px 5%;
+}
+
+#number1, #number2, #number3, #number4, #number5 , #number6 , #number7, #syntaxText, #codeWriteSpeedText, #dinamVarHeaderText{
+	margin: 15px 0;
+	display: list-item;
+}
+
+.featuresBox {
+	margin: 5% 15%;
+}
+
+#featuresHeader {
+	text-transform: uppercase;
+	font-size: 24px;
+	margin: 15px 0;
+	text-align: center;
+}
+
+.fibBox, .syntBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dinamVarBox {
+	align-items: center;
+}
+
+#dinamPyPNG {
+	width: 500px;
+}
+
+.randomCodeBox {
+	align-items: center;
+}
+
+#randomHeader {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 15px 0 15px 5%;
+}
+
+.img {
+	max-width: 40vw;
+}
